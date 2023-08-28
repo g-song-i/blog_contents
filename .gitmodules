@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://g-song-i: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@github.com/g-song-i/g-song-i.github.io.git
+	branch = main
