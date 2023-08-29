@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Zongi Diary'
 theme = "hugo-digital-garden-theme"
 themesdir = "./themes/"
+# robots.txt
+enableRobotsTXT = true
 
 [module]
   [module.hugoVersion]
