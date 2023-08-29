@@ -22,17 +22,28 @@ For academic aspects, I've researched and studied **cloud-native security**, whi
 
 - Study in Information and Telecommunication Engineering Department, Communication and Network Security Laboratory
 
+  - **Jornals**
+    + ["Container Instrumentation and Enforcement System for Runtime Security of Kubernetes Platform with eBPF (Intelligent Automation & Soft Computing)"][journal3link]
+      + This work is the extended version of the paper I wrote for the conference below. The paper basically uses **BPF-LSM** (a LSM implementation powered by eBPF) to enforce specific policies to a or a group of container. The policy will be provided in a YAML format, helping the admin make eBPF programs easily.
+
+      [journal3link]: https://cdn.techscience.cn/files/iasc/2023/TSP_IASC-37-2/TSP_IASC_39565/TSP_IASC_39565.pdf
+
+  - **Lecture Notes (Conference Paper Publication)**
+    + ["MDagg: A New Aggregation Method Using Mahalanobis Distance"][lecturenote1link]
+      + In this work, the target is a federated learning architecture. I suggest a new aggregation rule to avoid malicious gradients when aggregating by considering relations among gradients with **Mahalanobis distance, not just Euclidian distance**. But unfortunately, there is no specific equation since my math is terrible 🥲. I enjoy mathematical thinking, but it is hard to calculate exact answers than understand them intuitively. So I thought the idea was not that bad... but who knows 🤣 
+
+      [lecturenote1link]: https://link.springer.com/chapter/10.1007/978-981-99-1252-0_5
 
 #### Master Degree, Soongsil University, Seoul, 06978, Republic of Korea
 <small>2021.03 - 2023.02</small>
 
-- Graduate Information and Telecommunication Engineering Department
+- Graduate Information and Telecommunication Engineering Department, Communication and Network Security Laboratory
 - Most of my time during my master's course, I've focused on Cloud-native security. My work is as follows:
   (I am not the first author of all achievements, some of them might not. If you are intersted in some of my researches, please refer to the link and check 😎!)
 
   - **Jornals**
     + ["Implementation of Opensource-Based Automatic Monitoring Service Deployment and Image Integrity Checkers for Cloud-Native Environment (Journal of the Korea Institute of Information Security & Cryptology)"][journal2link]
-      + In this work, I implement docker-compose environment to setup open-source container monitoring tool - which is **Falco!** I integrate monitoring system and some other tools to visualize matrix - which are **Prometheus and Grafana**. It's not an advanced work, I devloped how we deploy monitoring tools with docker more easily. ++ Image integrity check with **DCT (Docker Content Trust)**
+      + In this work, I implement docker-compose environment to setup open-source container monitoring tool - which is **Falco**. I integrate monitoring system and some other tools to visualize matrix - which are **Prometheus and Grafana**. It's not an advanced work, I devloped how we deploy monitoring tools with docker more easily. ++ Image integrity check with **DCT (Docker Content Trust)**
   
       [journal2link]: http://koreascience.or.kr/article/JAKO202224951100631.page
 
@@ -57,7 +68,7 @@ For academic aspects, I've researched and studied **cloud-native security**, whi
 
   - **Conference Papers**
     + **_2022 Best Student Paper from KISTI_**, MobiSec Conference for my paper "KRSIE: An eBPF-based Kubernetes Runtime Security Instrumentation and Enforcement System"
-- Basically, I handle **Docker and Kubernetes** environment on **Linux Ubuntu OS**. Thus, I have some basic knowledge for these systems. To make programs, I utilize **C, python, and Golang**. Especially, I've tried to learn **eBPF technology**!
+- Basically, I work with **Docker and Kubernetes** environment on **Linux Ubuntu OS**. Thus, I have some basic knowledge for these systems. To make applications, I program with these languages: **C, python, and Golang**. Especially, I've tried to learn **eBPF technology**!
 
 
 #### Bachelor Degree, Changwon National University, Changwon, 51140, Republic of Korea
