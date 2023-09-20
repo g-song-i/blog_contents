@@ -34,7 +34,7 @@ For academic aspects, I've researched and studied **cloud-native security**, whi
 
       [lecturenote1link]: https://link.springer.com/chapter/10.1007/978-981-99-1252-0_5
 
-#### Master Degree, Soongsil University, Seoul, 06978, Republic of Korea
+#### Master's Degree, Soongsil University, Seoul, 06978, Republic of Korea
 <small>2021.03 - 2023.02</small>
 
 - Graduate Information and Telecommunication Engineering Department, Communication and Network Security Laboratory

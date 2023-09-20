@@ -24,14 +24,14 @@ summary: Introduction & Installation of eBPF
 
 ## BPF Installation
 1. Install build dependencies for Ubuntu 18.04 version
-```
+```python
 sudo apt-get -y install bison build-essential cmake flex git libedit-dev \
   libllvm6.0 llvm-6.0-dev libclang-6.0-dev python zlib1g-dev libelf-dev libfl-dev python3-setuptools
 ```
 <br>
 
 2. Install and compile BCC
-```
+```python
 git clone https://github.com/iovisor/bcc.git
 mkdir bcc/build; cd bcc/build
 cmake ..
@@ -47,7 +47,7 @@ popd
 
 ### Note 1
 If you face an error due to the LLVM version, you can remove the existing LLVM 6.0 and installed latest llvm and clang version.
-```
+```python
 sudo apt-get remove --purge llvm-6.0
 sudo apt-get install llvm-12 clang-12
 ```
@@ -55,7 +55,7 @@ sudo apt-get install llvm-12 clang-12
 
 ### Note 2
 You can install dev package if the file 'libclang.so' didn't exist in /usr/lib/llvm-12/lib/ directory.
-```
+```python
 sudo apt install libclang-12-dev
 ```
 <br>
