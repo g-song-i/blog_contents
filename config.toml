@@ -4,7 +4,7 @@ title = 'Zongi Diary'
 theme = "hugo-digital-garden-theme"
 themesdir = "./themes/"
 # robots.txt
-enableRobotsTXT = true
+# enableRobotsTXT = true
 
 [module]
   [module.hugoVersion]
